@@ -1,0 +1,155 @@
+/* ----------------------------------------------------------------------------------------
+*                                       STYLE POLICE
+* -------------------------------------------------------------------------------------- */
+/* Font-weight: 300 */
+@font-face {
+    font-family: "Lato-Light";
+    src: url('../font/lato/Lato-Light.ttf');
+}
+
+/* Font-weight: 400 */
+@font-face {
+    font-family: "Lato-Regular";
+    src: url('../font/lato/Lato-Regular.ttf');
+}
+
+/* Font-weight: 700 */
+@font-face {
+    font-family: "Lato-Bold";
+    src: url('../font/lato/Lato-Bold.ttf');
+}
+
+/* Font-weight: 900 */
+@font-face {
+    font-family: "Lato-Black";
+    src: url('../font/lato/Lato-Black.ttf');
+}
+
+
+/* ----------------------------------------------------------------------------------------
+*                                       DEFAULT CSS GLOBAL
+* -------------------------------------------------------------------------------------- */
+html, body, header, .view {
+	height: 100%;
+}
+
+h1 {
+    font-family: "Lato-Black";
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+h2, h3 {
+    font-family: "Lato-Bold";
+}
+
+h4, h5, h6 {
+    font-family: "Lato-Light";
+}
+
+p {
+	font-family: "Lato-Light";
+}
+
+
+/* ----------------------------------------------------------------------------------------
+*                                       01. HEADER
+* -------------------------------------------------------------------------------------- */
+
+/* BACKGROUND IMAGE */
+.admin-bg-1 {
+    background: url("../img/header/background/typewriter.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.admin-bg-2 {
+    background: url("../img/header/background/antique.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+/* NAVBAR */
+.top-nav-collapse {
+    background-color: #2e2e2e;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-family: "Lato-Black";
+	letter-spacing: 0.1em;
+}
+
+.navbar:not(.top-nav-collapse) {
+	background: transparent !important;
+}
+
+/* LOGIN FORM */
+h2.card-header-title {
+	text-transform: uppercase;
+}
+
+.card {
+	background-color: rgba(229, 228, 255, 0.2);
+	margin-top: 30px;
+}
+
+.md-form {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.md-form label {
+	color: #ffffff;
+}
+
+.md-form input[type=text]:focus:not([readonly]),
+.md-form input[type=password]:focus:not([readonly]) {
+	border-bottom: 1px solid #8EDEF8;
+	box-shadow: 0 1px 0 0 #8EDEF8;
+}
+
+.md-form input[type=text]:focus:not([readonly])+label,
+.md-form input[type=password]:focus:not([readonly])+label {
+	color: #8EDEF8;
+}
+
+.md-form .form-control {
+	color: #fff;
+}
+
+.navbar.navbar-dark form .md-form input:focus:not([readonly]) {
+	border-color: #8EDEF8;
+}
+
+.fa-envelope, .fa-lock {
+	left: 0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse) {
+		background: #2e2e2e !important;
+	}
+}
+
+@media (min-width: 560px) and (max-width: 740px) {
+	html, body, header, .view {
+		height: 650px;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+	html, body, header, .view  {
+		height: 650px;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+	.navbar:not(.top-nav-collapse) {
+		background: #2e2e2e !important;
+	}
+}
+
+/* ----------------------------------------------------------------------------------------
+*                                       01. FOOTER
+* -------------------------------------------------------------------------------------- */
+	
