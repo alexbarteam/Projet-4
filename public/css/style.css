@@ -1,0 +1,178 @@
+/* ----------------------------------------------------------------------------------------
+*                                       STYLE POLICE
+* -------------------------------------------------------------------------------------- */
+/* Font-weight: 300 */
+@font-face {
+    font-family: "Lato-Light";
+    src: url('../font/lato/Lato-Light.ttf');
+}
+
+/* Font-weight: 400 */
+@font-face {
+    font-family: "Lato-Regular";
+    src: url('../font/lato/Lato-Regular.ttf');
+}
+
+/* Font-weight: 700 */
+@font-face {
+    font-family: "Lato-Bold";
+    src: url('../font/lato/Lato-Bold.ttf');
+}
+
+/* Font-weight: 900 */
+@font-face {
+    font-family: "Lato-Black";
+    src: url('../font/lato/Lato-Black.ttf');
+}
+
+
+/* ----------------------------------------------------------------------------------------
+*                                       DEFAULT CSS GLOBAL
+* -------------------------------------------------------------------------------------- */
+html, body, header {
+	height: 100%;
+}
+
+h1 {
+    font-family: "Lato-Black";
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+h2 {
+    font-family: "Lato-Bold";
+}
+
+h3 {
+    font-family: "Lato-Bold";
+}
+
+h4,
+h5,
+h6 {
+    font-family: "Lato-Light";
+}
+
+p {
+	font-family: "Lato-Light";
+}
+
+
+/* ----------------------------------------------------------------------------------------
+*                                       01. HEADER
+* -------------------------------------------------------------------------------------- */
+
+/* Background Image Header*/
+.full-bg-img {
+    background: url("../img/header/background/alaska-glacier.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+/* Navbar Color */
+.navbar {
+	font-family: "Lato-Light";
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #2e2e2e;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-family: "Lato-Black";
+	letter-spacing: 0.1em;
+}
+
+/* Line Separator Title Text */
+.my-5 {
+	background-color: #fff;
+}
+
+/* 2nd Title Text */
+.ml5 {
+	position: relative;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: #fff;
+}
+
+.ml5 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.1em;
+	padding-left: 0.4em;
+	padding-right: 0.05em;
+	padding-bottom: 0.15em;
+	line-height: 1em;
+}
+
+.ml5 .line {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 3px;
+	width: 100%;
+	background-color: #fff;
+	transform-origin: 0.5 0;
+}
+
+.ml5 .letters {
+	display: inline-block;
+	opacity: 0;
+}
+
+/* Media Queries Navbar */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2e2e2e;
+    }
+		
+	.ml5 .line {
+		height: 1px;
+	}
+	
+	.container h1 {
+		font-size: 1.2em;
+	}
+}
+
+
+/* ----------------------------------------------------------------------------------------
+*                                       01. PAGE POST
+* -------------------------------------------------------------------------------------- */
+/* Text episode title */
+.ml15 {
+  font-weight: 800;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+/* ----------------------------------------------------------------------------------------
+*                                       01. FOOTER
+* -------------------------------------------------------------------------------------- */
+	
+/* Copyright */
+.footer-copyright a {
+	text-transform: uppercase;
+}
+
+
+
+
+
+        .card {
+            background-color: rgba(229, 228, 255, 0.2);
+        }
+        .md-form label {
+            color: #ffffff;
+        }
